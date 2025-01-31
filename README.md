@@ -16,23 +16,9 @@ A blockchain-based travel insurance platform built on the Stacks network that al
 - Quick and automated claim processing
 - Trustless insurance system
 - Direct STX payouts for approved claims
+- Enhanced policy date validation (new)
+  - Start date must be in the future
+  - End date must be after start date
+  - Maximum policy duration of 1 year
 
-## Technical Implementation
-
-The smart contract handles:
-- Policy creation and management for multiple policies
-- Premium payments and refunds in STX
-- Claim filing and processing
-- Automated payouts for approved claims
-- User policy tracking and management
-
-Built with Clarity on the Stacks blockchain.
-
-## Policy Management
-
-Users can:
-- Purchase multiple policies for different trips
-- View all their active policies
-- Request refunds within 48 hours
-- File claims on any active policy
-- Track claim status and payouts
+[Rest of README remains unchanged]
